@@ -1,17 +1,17 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: #fbfbfb; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: #fbfbfb; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#fbfbfb, white);
   padding: 20px 0; }
 
 a, a:hover {
@@ -21,14 +21,14 @@ a, a:hover {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #0099cc, #cc0000, #ffbb33);
   color: white; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-color: #0099cc; }
 
 .carousel {
-  border: solid #5637dd; }
+  border: solid #0099cc; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -39,10 +39,18 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
-#reserveModal .modal-header {
+#tradeModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#buyModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#sellModal .modal-header {
   background-color: #17A2B8;
   color: white; }
 
 #loginModal .modal-header {
-  background-color: #901CAD;
+  background-color: #0099cc;
   color: white; }

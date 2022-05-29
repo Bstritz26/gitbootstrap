@@ -1,8 +1,8 @@
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
-$color-dark: #60106b;
+$color-primary: #cc0000;
+$color-secondary: #0099cc;
+$color-pale: #fbfbfb;
+$color-mid: #0099cc;
+$color-dark: #ffbb33;
 $color-teal: #17A2B8;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: $color-primary;
+    color: $color-pale;
 }
 
 header {
@@ -59,12 +59,26 @@ a, a:hover {
     bottom: 0;
     z-index: 100;
 }
-#reserveModal {
+
+#tradeModal {
     .modal-header {
         background-color: $color-teal;
         color: white;
     }
 }
+#buyModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+#sellModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
 #loginModal {
     .modal-header {
         background-color: $color-mid;
